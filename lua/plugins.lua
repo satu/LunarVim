@@ -144,6 +144,8 @@ return require("packer").startup(function(use)
         require_plugin('windwp/nvim-spectre')
         use {'simrat39/symbols-outline.nvim', opt = true}
         require_plugin('symbols-outline.nvim')
+        use {'simrat39/rust-tools.nvim', opt = true}
+        require_plugin('rust-tools.nvim')
         -- folke/todo-comments.nvim
         -- gennaro-tedesco/nvim-jqx
         -- TimUntersberger/neogit
