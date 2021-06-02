@@ -146,6 +146,8 @@ return require("packer").startup(function(use)
         require_plugin('symbols-outline.nvim')
         use {'simrat39/rust-tools.nvim', opt = true}
         require_plugin('rust-tools.nvim')
+        use {'jeffkreeftmeijer/vim-numbertoggle', opt = true}
+        require_plugin('vim-numbertoggle')
         -- folke/todo-comments.nvim
         -- gennaro-tedesco/nvim-jqx
         -- TimUntersberger/neogit
