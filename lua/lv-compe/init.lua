@@ -20,6 +20,7 @@ require'compe'.setup {
         calc = {kind = "   (Calc)"},
         vsnip = {kind = "   (Snippet)"},
         nvim_lsp = {kind = "   (LSP)"},
+        tabnine = {kind = "   (Tabnine)", priority = 200},
         -- nvim_lua = {kind = "  "},
 		nvim_lua = false,
         spell = {kind = "   (Spell)"},

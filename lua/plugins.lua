@@ -50,6 +50,7 @@ return require("packer").startup(function(use)
 
     -- Autocomplete
     use {"hrsh7th/nvim-compe", opt = true}
+    use {'tzachar/compe-tabnine', opt = true, run='./install.sh', requires = 'hrsh7th/nvim-compe'}
     use {"hrsh7th/vim-vsnip", opt = true}
     use {"rafamadriz/friendly-snippets", opt = true}
 
@@ -100,6 +101,7 @@ return require("packer").startup(function(use)
     require_plugin('telescope-project.nvim')
     require_plugin("nvim-dap")
     require_plugin("nvim-compe")
+    require_plugin("compe-tabnine")
     require_plugin("vim-vsnip")
     require_plugin("nvim-treesitter")
     require_plugin("nvim-ts-autotag")
